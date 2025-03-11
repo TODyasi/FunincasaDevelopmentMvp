@@ -1,0 +1,32 @@
+﻿@model IEnumerable<RecipeDto>
+
+<div>
+    <p>Wagwan</p>
+</div>
+<form>
+    <div class="container row">
+        @foreach (var recipe in Model)
+        {
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="p-0 my-3 border rounded">
+                    <div class="card">
+                        <h3 class="card-title text-white-50 text-center py-2">@recipe.RecipeTitle</h3>
+                        <img src="@recipe.ImageUrl" class="card-img-top">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between py-2">
+                                <span class="badge bg-warning text-white p-2">@recipe.Ingredients</span>
+                            </div>
+                            <p class="card-text">@Html.Raw(recipe.RecipeDescription)</p>
+                            <div class="row">
+                                <div class="col">
+                                    <a asp-action="RecipeDetails" asp-route-recipeId="@recipe.RecipeId"
+                                       class="btn btn-success form-control">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</form>

@@ -75,7 +75,7 @@ namespace FunincasaDevelopment.RecipeAPI.Migrations
                             RecipeId = 1,
                             CookTime = 15,
                             CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "https://example.com/spaghetti.jpg",
+                            ImageUrl = "https://www.recipetineats.com/wp-content/uploads/2019/05/Spaghetti-Carbonara_6.jpg",
                             Ingredients = "[\"Spaghetti\",\"Eggs\",\"Parmesan Cheese\",\"Pancetta\",\"Black Pepper\"]",
                             Instructions = "Cook spaghetti. Fry pancetta. Mix eggs and cheese. Combine all with spaghetti.",
                             LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -89,7 +89,7 @@ namespace FunincasaDevelopment.RecipeAPI.Migrations
                             RecipeId = 2,
                             CookTime = 30,
                             CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ImageUrl = "https://example.com/chicken-curry.jpg",
+                            ImageUrl = "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/chicken-curry-recipe.jpg",
                             Ingredients = "[\"Chicken\",\"Onion\",\"Garlic\",\"Curry Powder\",\"Coconut Milk\"]",
                             Instructions = "Sauté onions and garlic. Add chicken and spices. Pour coconut milk and simmer.",
                             LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -97,6 +97,90 @@ namespace FunincasaDevelopment.RecipeAPI.Migrations
                             PrepTime = 15,
                             RecipeDescription = "A flavorful Indian-style chicken curry cooked with spices and coconut milk.",
                             RecipeTitle = "Chicken Curry"
+                        },
+                        new
+                        {
+                            RecipeId = 3,
+                            CookTime = 25,
+                            CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.simplyrecipes.com/thmb/wdIHbAeXrjjieDhNUvFNSplGeEw=/1800x1200/filters:fill(auto,1)/Simply-Recipes-Beef-Stroganoff-LEAD-09-d826ebd2baf14e768e3254a67e1a2988.jpg",
+                            Ingredients = "[\"Beef\",\"Mushrooms\",\"Onion\",\"Sour Cream\",\"Paprika\"]",
+                            Instructions = "Cook beef and mushrooms. Add sour cream and seasonings. Serve over pasta or rice.",
+                            LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NoOfServings = 4,
+                            PrepTime = 15,
+                            RecipeDescription = "A creamy and hearty Russian beef dish served over noodles or rice.",
+                            RecipeTitle = "Beef Stroganoff"
+                        },
+                        new
+                        {
+                            RecipeId = 4,
+                            CookTime = 10,
+                            CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.acouplecooks.com/wp-content/uploads/2020/04/Veggie-Stir-Fry-005s.jpg",
+                            Ingredients = "[\"Broccoli\",\"Carrots\",\"Bell Peppers\",\"Soy Sauce\",\"Garlic\"]",
+                            Instructions = "Sauté garlic. Add vegetables and stir-fry with soy sauce.",
+                            LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NoOfServings = 3,
+                            PrepTime = 10,
+                            RecipeDescription = "A quick and healthy mix of colorful vegetables stir-fried with soy sauce.",
+                            RecipeTitle = "Vegetable Stir-Fry"
+                        },
+                        new
+                        {
+                            RecipeId = 5,
+                            CookTime = 10,
+                            CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2023-07/Margherita-pizza.jpg",
+                            Ingredients = "[\"Pizza Dough\",\"Tomato Sauce\",\"Mozzarella\",\"Basil\",\"Olive Oil\"]",
+                            Instructions = "Roll dough. Spread sauce. Add cheese and basil. Bake at 220°C for 10 minutes.",
+                            LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NoOfServings = 2,
+                            PrepTime = 15,
+                            RecipeDescription = "An Italian pizza with tomato, mozzarella, and fresh basil.",
+                            RecipeTitle = "Classic Margherita Pizza"
+                        },
+                        new
+                        {
+                            RecipeId = 6,
+                            CookTime = 10,
+                            CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.recipetineats.com/wp-content/uploads/2019/09/Grilled-Salmon_5.jpg",
+                            Ingredients = "[\"Salmon\",\"Lemon\",\"Garlic\",\"Olive Oil\",\"Dill\"]",
+                            Instructions = "Season salmon. Grill for 5 minutes per side.",
+                            LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NoOfServings = 2,
+                            PrepTime = 10,
+                            RecipeDescription = "A healthy and flavorful salmon dish with lemon and herbs.",
+                            RecipeTitle = "Grilled Salmon"
+                        },
+                        new
+                        {
+                            RecipeId = 7,
+                            CookTime = 5,
+                            CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.acouplecooks.com/wp-content/uploads/2021/02/Avocado-Toast-007.jpg",
+                            Ingredients = "[\"Avocado\",\"Bread\",\"Salt\",\"Pepper\",\"Lemon Juice\"]",
+                            Instructions = "Mash avocado. Spread on toast. Season with salt, pepper, and lemon juice.",
+                            LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NoOfServings = 1,
+                            PrepTime = 5,
+                            RecipeDescription = "A simple and nutritious avocado spread on toasted bread.",
+                            RecipeTitle = "Avocado Toast"
+                        },
+                        new
+                        {
+                            RecipeId = 8,
+                            CookTime = 12,
+                            CreatedOn = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "https://www.sallysbakingaddiction.com/wp-content/uploads/2013/05/thick-chewy-chocolate-chip-cookies.jpg",
+                            Ingredients = "[\"Flour\",\"Butter\",\"Sugar\",\"Chocolate Chips\",\"Eggs\"]",
+                            Instructions = "Mix ingredients. Scoop onto baking sheet. Bake at 180°C for 12 minutes.",
+                            LastUpdated = new DateTime(2025, 2, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NoOfServings = 8,
+                            PrepTime = 15,
+                            RecipeDescription = "Classic soft and chewy chocolate chip cookies.",
+                            RecipeTitle = "Chocolate Chip Cookies"
                         });
                 });
 #pragma warning restore 612, 618

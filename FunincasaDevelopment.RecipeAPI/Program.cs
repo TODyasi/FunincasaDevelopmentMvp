@@ -27,7 +27,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
@@ -35,7 +34,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
 
 //apply migration everytime the app is ran
 void ApplyMigration()

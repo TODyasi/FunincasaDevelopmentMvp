@@ -1,0 +1,44 @@
+﻿@model RecipeDto
+
+<form asp-action="ProductEdit" enctype="multipart/form-data">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-white text-center">Edit Product</h1>
+        <input hidden asp-for="RecipeId" />
+        <hr />
+        <div class="row">
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;"> Name</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="RecipeTitle" class="form-control" />
+                        <span asp-validation-for="RecipeTitle" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Category Name</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <input asp-for="RecipeDescription " class="form-control" />
+                        <span asp-validation-for="RecipeDescription" class="text-danger"></span>
+                    </div>
+                    <div class="col-2">
+                        <label class="control-label pt-2" style="font-size:20px;">Description</label>
+                    </div>
+                    <div class="col-10 pb-3">
+                        <textarea asp-for="Ingredients" class="form-control" rows="5"></textarea>
+                        <span asp-validation-for="Ingredients" class="text-danger"></span>
+                    </div>
+                    <div class="col-5">
+                        <input type="submit" value="Update" class="btn btn-success form-control" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-2">
+                <img src="@Model.ImageUrl" class="w-100" alt="" />
+            </div>
+        </div>
+    </div>
+</form>

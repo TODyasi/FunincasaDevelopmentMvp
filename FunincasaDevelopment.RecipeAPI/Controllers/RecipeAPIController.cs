@@ -8,6 +8,8 @@ using static Azure.Core.HttpHeader;
 
 namespace FunincasaDevelopment.RecipeAPI.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class RecipeAPIController : Controller
     {
         private readonly ApplicationDbContext _database;
@@ -23,7 +25,7 @@ namespace FunincasaDevelopment.RecipeAPI.Controllers
 
         // HTTP GET method to retrieve a list of recipes
         [HttpGet]
-        
+        [Route("GetAll")]
         public ResponseDto GetAll()
         {
             try
@@ -62,7 +64,7 @@ namespace FunincasaDevelopment.RecipeAPI.Controllers
             }
             return _response;
         }
-        [HttpPut]
+        [HttpPost]
         [Route("Update{id:int}")]
         public ResponseDto Put(int id,RecipeDto recipeDto)
         {

@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunincasaDevelopment.RecipeAPI", "FunincasaDevelopment.RecipeAPI\FunincasaDevelopment.RecipeAPI.csproj", "{973BAE9F-D6C4-4DE3-8E50-1F4C8D95DABB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunincasaUI", "FunincasaUI\FunincasaUI.csproj", "{A984261D-0135-417D-A5EE-F3975149C556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthentificationAPI", "AuthentificationAPI\AuthentificationAPI.csproj", "{B3BFC8D7-972B-4F6A-898D-0F67AD1BD9B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +27,21 @@ Global
 		{973BAE9F-D6C4-4DE3-8E50-1F4C8D95DABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{973BAE9F-D6C4-4DE3-8E50-1F4C8D95DABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{973BAE9F-D6C4-4DE3-8E50-1F4C8D95DABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A984261D-0135-417D-A5EE-F3975149C556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A984261D-0135-417D-A5EE-F3975149C556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A984261D-0135-417D-A5EE-F3975149C556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A984261D-0135-417D-A5EE-F3975149C556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BFC8D7-972B-4F6A-898D-0F67AD1BD9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BFC8D7-972B-4F6A-898D-0F67AD1BD9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BFC8D7-972B-4F6A-898D-0F67AD1BD9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BFC8D7-972B-4F6A-898D-0F67AD1BD9B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{973BAE9F-D6C4-4DE3-8E50-1F4C8D95DABB} = {12AD72D2-DDE8-4C2D-B5DB-A76381DB2D83}
+		{A984261D-0135-417D-A5EE-F3975149C556} = {385020A2-D241-43C5-BDAB-789F5872FA44}
+		{B3BFC8D7-972B-4F6A-898D-0F67AD1BD9B4} = {12AD72D2-DDE8-4C2D-B5DB-A76381DB2D83}
 	EndGlobalSection
 EndGlobal
