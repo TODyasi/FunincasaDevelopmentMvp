@@ -1,0 +1,6 @@
+@FunincasaDevelopment.RecipeAPI_HostAddress = http://localhost:5062
+
+GET {{FunincasaDevelopment.RecipeAPI_HostAddress}}/recipeapi/
+Accept: application/json
+
+###
